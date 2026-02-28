@@ -1,0 +1,77 @@
+.app-shell {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.app-card {
+  padding: 16px;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+.app-title {
+  margin: 0;
+}
+
+.app-error {
+  white-space: pre-wrap;
+  margin-top: 10px;
+}
+
+.board {
+  display: grid;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.board-row {
+  display: grid;
+  gap: 6px;
+}
+
+.tile {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  background: transparent;
+  font-size: 18px;
+  font-weight: 600;
+  user-select: none;
+}
+
+.tile--green {
+  background: #6aaa64;
+}
+
+.tile--yellow {
+  background: #c9b458;
+}
+
+.tile--red {
+  background: #d3d6da;
+}
+
+.guess-controls {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.guess-input {
+  padding: 8px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.guess-button {
+  padding: 8px 12px;
+}
+
+.app-status {
+  margin-top: 12px;
+  font-weight: 700;
+}
